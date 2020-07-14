@@ -1,0 +1,28 @@
+{
+  "name": "@nucleome/nb-binindex",
+  "version": "0.0.1",
+  "description": "nucleome binning index data structure",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production -c",
+    "dev": "webpack --mode development  -c"
+  },
+  "keywords": [
+    "nucleome",
+    "genome",
+    "data structure"
+  ],
+  "unpkg": "dist/lib/nb.js",
+  "repository":{
+      "type":"git",
+      "url":"https://github.com/nucleome/nb-binindex.git"
+  },
+  "author": "zhuxp",
+  "license": "GPL",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "webpack": "latest",
+    "webpack-cli": "^3.3.10"
+  }
+}
