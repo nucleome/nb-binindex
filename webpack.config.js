@@ -11,7 +11,7 @@ module.exports = {
         extensions: ['*', '.js' ],
     },
     output: {
-        filename: './lib/nb.js',
+        filename: './nb-binindex.js',
         libraryTarget: 'umd',
         library: 'nb',
     },
